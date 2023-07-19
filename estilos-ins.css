@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.cont-todo {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.celucos {
+  /* border: #262626 1px solid; */
+  width: 50%;
+  height: 90vh;
+  padding-right: 30vh;
+  background-image: url(/Copia-pagina-instagram/img/celuares.png);
+  display: flex;
+}
+.pantalla {
+  align-self: center;
+  margin-left: 70%;
+  margin-top: 2%;
+}
+
+.cont-inicio {
+  width: 24%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  margin-top: 20px;
+  border: none;
+}
+.inicio-registro {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 41.7vh;
+  border-bottom: 1px solid #dbdbdb;
+}
+.instagram {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20vh;
+  font-size: 25px;
+  color: #262626;
+  font-family: "Lobster", cursive;
+  border-top: 1px solid #dbdbdb;
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+}
+.insta {
+  align-self: center;
+}
+.inicioyregistro {
+  width: 100%;
+  height: 35vh;
+}
+.cont-texto {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+}
+.texto {
+  border-style: none;
+  margin: 2px;
+  width: 80%;
+  height: 4.5vh;
+  align-self: center;
+  border: 1px solid #7373a0;
+  font-size: 13px;
+  background-color: #fafafa;
+  transition: 0.0001s;
+}
+.cont-bot-ing {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 6vh;
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+}
+.bot-ing {
+  align-self: center;
+  width: 83%;
+  height: 5vh;
+  background-color: #4aaef0;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  border-style: none;
+  transition: 0.3s;
+}
+.bot-ing:active {
+  background-color: #4cb5f9;
+}
+.o {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #7373a0;
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+}
+.facebook-y-otros {
+  display: flex;
+  border-bottom: 1px solid #dbdbdb;
+  justify-content: center;
+  width: 100%;
+  height: 20vh;
+  margin-top: -20px;
+  flex-direction: column;
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+}
+.facebook {
+  display: flex;
+  color: #385185;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  margin-bottom: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.8s;
+}
+.facebook:active {
+  color: #587ed1;
+}
+.contraseña {
+  display: flex;
+  color: #385185;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  margin-bottom: 13%;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.8s;
+}
+.contraseña:active {
+  color: #587ed1;
+}
+.cont-registro {
+  width: 100%;
+  height: 8vh;
+  border: 1px solid #dbdbdb;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registro {
+  padding: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.registrate {
+  color: blue;
+  transition: 0.8s;
+}
+.registrate:active {
+  color: #4cb5f9;
+}
+.descarga {
+  margin-top: 5px;
+  width: 100%;
+  height: 14vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.text-descarga {
+  float: center;
+  margin-top: -0vh;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.iconos-de-descarga {
+  height: 9.8vh;
+  width: 100%;
+  margin-top: -3vh;
+  display: flex;
+}
+.play-store {
+  margin-top: -7vh;
+}
+.cont-abajo{
+  width: 99%;
+  height: 100px;
+  
+}
+.part-abajo{
+  font-size: 15px;
+  list-style: none;
+  padding: 10px;
+  display: flex;
+}
+.part-abajo li{
+  color: #737373;
+  margin: 10px;
+  display: inline-block;
+  border-bottom: none;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+.part-abajo li:hover{
+  border-bottom: 1px solid #737373;
+}
+.part-abajo li:active{
+  color: #a0a0a0;
+}
+.otr-abajo{
+  font-size: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.otr-abajo li{
+  color: #737373;
+  margin: 10px;
+  display: inline-block;
+  border-bottom: none;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+.otr-abajo li:hover{
+  border-bottom: 1px solid #737373;
+}
+.otr-abajo li:active{
+  color: #a0a0a0;
+}
